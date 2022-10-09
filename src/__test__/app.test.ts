@@ -10,7 +10,11 @@ beforeAll(async () => {
     console.log('Database successfully created for test');
   });
 });
+
+
 // Testing for sign up
+
+
 describe('it should test all apis', () => {
   it('it should create a user', async () => {
     const response = await request.post('/users/create').send({
