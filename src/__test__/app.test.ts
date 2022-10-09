@@ -1,9 +1,6 @@
 import 'dotenv/config';
-
 import app from '../app';
-
 import supertest from 'supertest';
-
 import db from '../config/database.config';
 
 const request = supertest(app);
